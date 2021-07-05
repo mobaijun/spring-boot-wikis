@@ -1,0 +1,4 @@
+spring:
+  freemarker:
+    # 设置模板文件的后缀，如果不添加该配置，直接 return "goods.ftl"; 会报错。
+    suffix: .ftl

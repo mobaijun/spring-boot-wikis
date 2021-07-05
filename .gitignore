@@ -9,6 +9,8 @@ _roadhog-api-doc
 # production
 /dist
 /.vscode
+/.mvn
+HELP.md
 
 # misc
 .DS_Store
@@ -40,7 +42,15 @@ screenshot
 build
 
 /.idea
+/.idea/.idea
 *.iml
 target
 deployment
 data
+**/.mvn
+**/HELP.md
+**/*.iml
+**/mvnw.cmd
+**/mvnw
+**/.gitignore
+
