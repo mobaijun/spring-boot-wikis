@@ -44,7 +44,3 @@ build
 target
 deployment
 data
-
-
-zj-monitor/icdfile/zjdy_herong_config_a100_1to6_cutCpssSet.icd
-zj-monitor/zj-service-portal/src/main/resources/application-dev.yml
