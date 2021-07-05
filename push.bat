@@ -11,7 +11,7 @@ echo =====================拉取成功=====================
 echo ================正在从本地上传笔记================
 git add .
 git commit -m "%date% %time%"
-git push origin master
+git push origin devople
 echo =====================上传成功=====================
 pause 摁任意键退出
 exit
