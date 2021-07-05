@@ -47,10 +47,10 @@ build
 target
 deployment
 data
-**/.mvn
+**//.mvn
 **/HELP.md
 **/*.iml
-**/*.cmd
+**/mvnw.cmd
 **/mvnw
 **/.gitignore
 
