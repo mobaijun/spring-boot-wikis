@@ -42,7 +42,15 @@ screenshot
 build
 
 /.idea
+/.idea/.idea
 *.iml
 target
 deployment
 data
+**/.mvn
+**/HELP.md
+**/*.iml
+**/*.cmd
+**/mvnw
+**/.gitignore
+
