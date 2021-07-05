@@ -47,7 +47,7 @@ build
 target
 deployment
 data
-**//.mvn
+**/.mvn
 **/HELP.md
 **/*.iml
 **/mvnw.cmd
