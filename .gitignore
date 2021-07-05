@@ -39,7 +39,7 @@ screenshot
 
 build
 
-# idea
+/.idea
 *.iml
 target
 deployment
