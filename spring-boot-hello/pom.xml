@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!--这一段配置代码，指定使用 Spring Boot 2.2.5.RELEASE 版本 。
     如果我们要更换 Spring Boot 版本，只需要修改 <version></version> 标签中间的版本号部分即可。-->
@@ -95,5 +97,5 @@
             </releases>
         </pluginRepository>
     </pluginRepositories>
-    
+
 </project>
