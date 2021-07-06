@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  * Software：IntelliJ IDEA 2021.1.1 x64
  * Author: https://www.mobaijun.com
- * Date: 2021/7/5 16:19
  * 类描述：商品控制器
  * 1. @Controller 注解标注在 GoodsController 类上，会为该类注册一个控制器组件，放入 Spring 容器中。该组件具备处理请求的能力，其中的方法可以响应 HTTP 请求；
  * 2. @RequestMapping ("/goods") 注解标注在方法 goods () 上，所以请求路径如果匹配 /goods ，则由该方法进行处理；
