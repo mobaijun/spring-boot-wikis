@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+</head>
+<body>
+<div>商品列表:</div>
+<div th:each="item:${goodsList}">
+    <span th:text="${item.name}"></span>
+    <span th:text="${item.price}"></span>
+    <span th:text="${item.pic}"></span>
+</div>
+</body>
+</html>

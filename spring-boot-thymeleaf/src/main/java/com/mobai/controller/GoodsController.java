@@ -31,6 +31,6 @@ public class GoodsController {
         // 交给模板引擎处理的数据
         model.addAttribute("goodsList", goodsService.getGoodsList());
         // 跳转到goods.ftl页面
-        return "goods";
+        return "goods.html";
     }
 }

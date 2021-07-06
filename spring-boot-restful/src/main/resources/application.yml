@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springfox-swagger
+server:
+  port: 8082
+# =========自定义swagger配置========= #
+swagger:
+  enable: true
+  application-name: ${spring.application.name}
+  application-version: 1.0
+  application-description: springfox-swagger3.0整合demo
+  try-host: http://localhost:${server.port}

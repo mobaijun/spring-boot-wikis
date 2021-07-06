@@ -1,0 +1,17 @@
+server:
+  # 项目端口
+  # 配置文件中使用随机数也是比较常见的场景，尤其启动多个客户端时，希望指定一个启动端口的范围，例如 最大不超过2000 ，可配置如下：
+  # port: 8002
+  port: ${random.int(2000)}
+  # 项目启动默认路径
+  servlet:
+    context-path: /spring-boot-profile
+# 有时候参数太多，都放到一个配置文件中太乱了，我们会希望将配置分到不同文件中，然后每个文件保存不同配置。
+# application-wxmp.yml配置文件
+# 公众号的appid
+wxmp:
+  appid: 111
+  # 公众号的secret
+  # secret: 222
+  # Spring Boot 配置项是可以引用其他配置项的值的
+  secret: ${wxmp.appid}222
