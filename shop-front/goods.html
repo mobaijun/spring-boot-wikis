@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+<!-- 导航栏 -->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li><a style="font-size: 2em;color:white;" href="#">商城</a></li>
+            <li><a href="javascript:void(0)" onclick="viewGoods()">浏览商品</a></li>
+            <li><a href="#" onclick="addGoods()">新增商品</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- 商品信息展示 -->
+<table id="GoodsTable" class="table table-striped">
+    <tr>
+        <th>商品ID</th>
+        <th>商品名称</th>
+        <th>商品价格</th>
+        <th>商品图片</th>
+        <th>操作</th>
+    </tr>
+</table>
+<!-- 新增弹窗 -->
+<div id="GoodsAddModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">新增商品</h4>
+            </div>
+            <div class="modal-body" style="padding:16px;">
+                <!-- 新增商品的表单 -->
+                <form>
+                    <div class="form-group">
+                        <label>商品名称</label>
+                        <input name="name" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>商品价格</label>
+                        <input name="price" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>商品图片</label>
+                        <input name="pic" type="text" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="addGoodsSubmit()">提交</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 编辑弹窗 -->
+<div id="GoodsEditModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">编辑商品</h4>
+            </div>
+            <div class="modal-body" style="padding:16px;">
+                <!-- 编辑商品的表单 -->
+                <form>
+                    <div class="form-group">
+                        <label>商品ID</label>
+                        <input name="id" type="text" class="form-control" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label>商品名称</label>
+                        <input name="name" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>商品价格</label>
+                        <input name="price" type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>商品图片</label>
+                        <input name="pic" type="text" class="form-control">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="editGoodsSubmit()">提交</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--jQuery-->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+</script>
+<script>
+    //浏览商品
+    function viewGoods() {
+        var row = "";
+        //先清空表格
+        $('#GoodsTable').find("tr:gt(0)").remove();
+        $.ajax({
+            type: "GET",
+            url: "http://127.0.0.1:8080/goods",
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                console.log(res);
+                $.each(res, function (i, v) {
+                    row = "<tr>";
+                    row += "<td>" + v.id + "</td>";
+                    row += "<td>" + v.name + "</td>";
+                    row += "<td>" + v.price + "</td>";
+                    row += "<td>" + v.pic + "</td>";
+                    row +=
+                        "<td><a class='btn btn-primary btn-sm' href='javascript:editGoods(" + v.id + ")' >编辑</a>";
+                    row +=
+                        "<a class='btn btn-danger btn-sm' href='javascript:removeGoods(" + v.id + ")' >删除</a></td>";
+                    row += "</tr>";
+                    console.log(row);
+                    $("#GoodsTable").append(row);
+                });
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+
+    //删除
+    function removeGoods(id) {
+        console.log(id);
+        $.ajax({
+            type: "DELETE",
+            url: "http://127.0.0.1:8080/goods/" + id,
+            //dataType: "json",//由于删除方法无返回值，所以此处注释掉
+            contentType: "application/json; charset=utf-8",
+            success: function () {
+                //删除后重新加载
+                viewGoods();
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+
+    //新增
+    function addGoods() {
+        $('#GoodsAddModal').modal('show');
+    }
+
+    //新增提交
+    function addGoodsSubmit() {
+        var data = {
+            id: '',
+            name: $("#GoodsAddModal input[name='name']").val(),
+            price: $("#GoodsAddModal input[name='price']").val(),
+            pic: $("#GoodsAddModal input[name='pic']").val()
+        };
+        $.ajax({
+            type: "POST",
+            url: "http://127.0.0.1:8080/goods",
+            //dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(data), //需要将对象转换为字符串提交
+            success: function () {
+                //新增后重新加载
+                viewGoods();
+                //关闭弹窗
+                $('#GoodsAddModal').modal('hide');
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+
+    //编辑
+    function editGoods(id) {
+        //查询商品信息
+        $.ajax({
+            type: "GET",
+            url: "http://127.0.0.1:8080/goods/" + id,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                console.log(res);
+                //为编辑框赋值
+                $("#GoodsEditModal input[name='id']").val(res.id);
+                $("#GoodsEditModal input[name='name']").val(res.name);
+                $("#GoodsEditModal input[name='price']").val(res.price);
+                $("#GoodsEditModal input[name='pic']").val(res.pic);
+                //显示编辑弹窗
+                $('#GoodsEditModal').modal('show');
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+
+    //编辑提交
+    function editGoodsSubmit() {
+        var data = {
+            id: $("#GoodsEditModal input[name='id']").val(),
+            name: $("#GoodsEditModal input[name='name']").val(),
+            price: $("#GoodsEditModal input[name='price']").val(),
+            pic: $("#GoodsEditModal input[name='pic']").val()
+        };
+        $.ajax({
+            type: "PUT",
+            url: "http://127.0.0.1:8080/goods/" + data.id,
+            //dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(data), //需要将对象转换为字符串提交
+            success: function () {
+                //新增后重新加载
+                viewGoods();
+                //关闭弹窗
+                $('#GoodsEditModal').modal('hide');
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+
+    //初始化方法
+    $(function () {
+        var row = "";
+        $.ajax({
+            type: "GET",
+            // 后端接口地址
+            url: "http://127.0.0.1:8080/goods",
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (res) {
+                $.each(res, function (i, v) {
+                    row = "<tr>";
+                    row += "<td>" + v.id + "</td>";
+                    row += "<td>" + v.name + "</td>";
+                    row += "<td>" + v.price + "</td>";
+                    row += "<td>" + v.pic + "</td>";
+                    row += "</tr>";
+                    $("#goodsTable").append(row);
+                });
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    });
+</script>
+</body>
+</html>
