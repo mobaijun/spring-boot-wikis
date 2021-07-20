@@ -10,3 +10,4 @@ swagger:
   application-version: 1.0
   application-description: springfox-swagger3.0整合demo
   try-host: http://localhost:${server.port}
+

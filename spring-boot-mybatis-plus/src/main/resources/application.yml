@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /
+  port: 1100
+
+spring:
+  # 数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.106.64.136:3306/mysql?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong
+    username: root
+    password: Mmobaijun@!123
+
+# mybatis-plus配置
+
+
+
