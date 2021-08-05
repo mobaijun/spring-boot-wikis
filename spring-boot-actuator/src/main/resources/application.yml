@@ -1,0 +1,25 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        # 这里表示开启所有的 endpoints ，（不包含shutdown）
+        include: '*' # 需要注意的是这里的*号必须要添加单引号，否则报错
+        # 如下写法是开启指定的 endpoints 接口
+        # include: beans,mappings,loggers
+        # exclude 可以用来关闭某些指定的接口，exclude 通常会和 include 一起使用，先使用 include 开启所有，然后 exclude 某个接口
+#        exclude: beans
+      # 配置自定义 /actuator 的路径,这样写的话，原本默认的/actuator/xxx路径，都会变成/mobaijun/xxx，可以用来防止被其他人猜到
+#      base-path: mobaijun
+#      # 最新版本提供了跨域支持，使用 Spring MVC 或 Spring WebFlux，则可以配置 Actuator 的 Web 端点以支持此类场景。
+#      cors:
+#        allowed-origins: '*'
+#        allowed-methods: '*'
+  # 如果要开启 /actuator/shutdown,额外添加如下配置
+  endpoint:
+    shutdown:
+      enabled: true
+
+info:
+  app:
+    name: spring-boot-actuator
+    version: 1.0.0
