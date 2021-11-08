@@ -1,6 +1,6 @@
 package com.mobaijun.controller;
 
-import com.mobaijun.pojo.GoodsDo;
+import com.mobaijun.domain.GoodsDo;
 import com.mobaijun.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;

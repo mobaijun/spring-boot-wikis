@@ -1,0 +1,72 @@
+server:
+  # 服务端口配置
+  port: 8000
+############# MySQL 配置 ############
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zijing_monitor?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong
+    username: root
+    password: root
+  ############# Redis 配置 ############
+  # redis配置
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
+    timeout: 10000
+    lettuce:
+      pool:
+        # 连接池最大连接数（使用负值表示没有限制） 默认 8
+        max-active: 16
+        # 连接池中的最大空闲连接 默认 8
+        max-idle: 8
+        # 连接池最大阻塞等待时间,单位毫秒（使用负值表示没有限制） 默认 -1
+        max-wait: 1000ms
+        # 连接池中的最小空闲连接 默认 0
+        min-idle: 0
+  # 应用程序名称
+  application:
+    name: SpringBoot 整合 MySQL 和 Redis
+
+# MybatisPlus配置
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  type-aliases-package: com.mobaijun.domain
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    # 打印sql语句,调试用
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 配置的缓存的全局开关
+    cache-enabled: true
+    # 延时加载的开关
+    lazy-loading-enabled: true
+    # 开启的话，延时加载一个属性时会加载该对象全部属性，否则按需加载属性
+    multiple-result-sets-enabled: true
+  global-config:
+    db-config:
+      # 删除前
+      logic-delete-value: 1
+      # 删除后
+      logic-not-delete-value: 0
+      # 0:数据库ID自增   1:用户输入id  2:全局唯一id(IdWorker)  3:全局唯一ID(uuid)
+      id-type: auto
+      # 表名、是否使用下划线命名（默认 true:默认数据库表下划线命名）
+      table-underline: false
+#########日志配置########
+# 日志配置
+logging:
+  file:
+  # 路径
+    path: logs
+
+############## swagger配置 ######################
+# =========自定义swagger配置========= #
+swagger:
+  enable: true
+  application-name: ${spring.application.name}
+  application-version: 1.0
+  application-description: SpringBoot 整合 MySQL 和 Redis
+  try-host: http://localhost:${server.port}/swagger-ui.html

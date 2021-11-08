@@ -1,4 +1,4 @@
-package com.mobaijun.pojo;
+package com.mobaijun.domain;
 
 import lombok.Data;
 

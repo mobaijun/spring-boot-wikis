@@ -9,10 +9,11 @@ import org.springframework.data.redis.core.RedisTemplate;
 import java.io.Serializable;
 
 @SpringBootTest
-class SpringBootRedisApplicationTests {
+class SpringBootRedisJedisApplicationTests {
 
     @Autowired
     private RedisTemplate<String, String> redisTemplate;
+
     @Autowired
     private RedisTemplate<String, Serializable> serializableRedisTemplate;
 

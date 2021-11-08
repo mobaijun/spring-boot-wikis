@@ -2,11 +2,10 @@ package com.mobaijun.service;
 
 
 import com.mobaijun.dao.GoodsDao;
-import com.mobaijun.pojo.GoodsDo;
+import com.mobaijun.domain.GoodsDo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
