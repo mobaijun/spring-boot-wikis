@@ -20,18 +20,18 @@ spring:
     # 迁移时发现目标schema非空，而且带有没有元数据的表时，是否自动执行基准迁移，默认false.
     baseline-on-migrate: true
     # JDBC 驱动程序的完全限定名称。 默认根据 URL 自动检测。
-    driver-class-name:
+    driver-class-name: ${spring.datasource.driver-class-name}
     # 要迁移的数据库的 DBC url。 如果未设置，则使用主要配置的数据源。
-    url: jdbc:mysql://localhost:3306/flyway?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    url: ${spring.datasource.url}
     # 要迁移的数据库的登录密码。
-    password: root
+    password: ${spring.datasource.password}
     # 要迁移的数据库的登录用户。
-    user: root
+    user: ${spring.datasource.username}
 
 
   # MySQL配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/flyway
+    url: jdbc:mysql://localhost:3306/flyway?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
     username: root
     password: root
