@@ -11,6 +11,11 @@ Spring-Boot学习代码，整合各个模块项目Demo
 Springboot
 
 ---
+[【Linux系列】CentOS-7下GitLab安装部署教程 | 框架师](https://www.mobaijun.com/posts/4047318542.html)
+
+[【工具系列】FastGithub--GitHub加速工具 | 框架师](https://www.mobaijun.com/posts/1095309802.html)
+
+[【工具系列】搭建Jrebel破解服务器 | 框架师](https://www.mobaijun.com/posts/841963446.html)
 
 [【转载】黄国平博士[致谢]完整版，人生失去动力的时候读一读 | 框架师](https://www.mobaijun.com/posts/294529322.html)
 
