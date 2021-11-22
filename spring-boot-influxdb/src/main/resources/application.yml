@@ -1,0 +1,19 @@
+server:
+  port: 8000
+  address: localhost
+#===============influx配置===================#
+spring:
+  influx:
+    # 链接地址
+    url: http://${server.address}:8086
+    # 账号
+    user: root
+    # 密码
+    password: root
+    # 数据库
+    database: 127.0.0.1_102
+    # 保存策略
+    retentionPolicy: default
+    # 存储时间
+    retentionPolicyTime: 730d
+
