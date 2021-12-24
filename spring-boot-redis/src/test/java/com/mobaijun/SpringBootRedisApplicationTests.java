@@ -1,35 +1,28 @@
 package com.mobaijun;
 
-import com.mobaijun.domain.User;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
-import java.io.Serializable;
+import javax.annotation.Resource;
 
 @SpringBootTest
 class SpringBootRedisApplicationTests {
 
-    @Autowired
-    private RedisTemplate<String, String> redisTemplate;
-    @Autowired
-    private RedisTemplate<String, Serializable> serializableRedisTemplate;
+    @Resource(name = "redisTemplate1")
+    private StringRedisTemplate redisTemplate1;
+    @Resource(name = "redisTemplate2")
+    private StringRedisTemplate redisTemplate2;
 
     @Test
     void contextLoads() {
-        redisTemplate.opsForValue().set("keyName", "mobaijun");
-        System.out.println(redisTemplate.opsForValue().get("keyName"));
+        redisTemplate1.opsForValue().set("keyName", "mobaijun");
+        System.out.println(redisTemplate1.opsForValue().get("keyName"));
     }
 
     @Test
-    public void testSerializable() {
-        User user = new User();
-        user.setId(1L);
-        user.setUserName("墨白君");
-        user.setUserSex("男");
-        serializableRedisTemplate.opsForValue().set("user", user);
-        User user2 = (User) serializableRedisTemplate.opsForValue().get("user");
-        System.out.println("user:" + user2.getId() + "," + user2.getUserName() + "," + user2.getUserSex());
+    void setRedisTemplate2() {
+        redisTemplate2.opsForValue().set("name", "mobaijun");
+        System.out.println(redisTemplate2.opsForValue().get("name"));
     }
 }

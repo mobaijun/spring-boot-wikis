@@ -2,7 +2,10 @@
 spring:
   redis:
     # 数据库索引 （默认0-15个库）,选择使用 0 号库
-    database: 0
+    database:
+      db1: 1
+      db2: 2
+      db3: 3
     # Redis 服务器地址
     host: 127.0.0.1
     # Redis 服务器端口
