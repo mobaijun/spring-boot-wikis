@@ -1,6 +1,6 @@
 package com.mobaijun;
 
-import com.mobaijun.pojo.TestModel;
+import com.mobaijun.entity.TestModel;
 import com.mobaijun.service.InfluxdbService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -40,6 +40,8 @@
         <module>spring-boot-profile</module>
         <module>spring-boot-rabbitmq</module>
         <module>spring-boot-redis</module>
+        <module>spring-boot-mongo</module>
+        <module>spring-boot-mybatis</module>
     </modules>
 
     <!--这一段配置代码，指定使用 Spring Boot 2.6.0.RELEASE 版本 。

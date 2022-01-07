@@ -2,15 +2,13 @@ package com.mobaijun.service.impl;
 
 import com.mobaijun.config.InfluxDbConnection;
 import com.mobaijun.config.SpringContextHolder;
-import com.mobaijun.pojo.TestModel;
+import com.mobaijun.entity.TestModel;
 import com.mobaijun.service.InfluxdbService;
 import org.influxdb.InfluxDBException;
 import org.influxdb.dto.BatchPoints;
 import org.influxdb.dto.Point;
-import org.influxdb.dto.QueryResult;
 import org.springframework.stereotype.Service;
 
-import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 

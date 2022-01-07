@@ -1,8 +1,7 @@
-package com.mobaijun.pojo;
+package com.mobaijun.entity;
 
 import lombok.Data;
 import org.influxdb.annotation.Column;
-import org.influxdb.annotation.Measurement;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 数据源配置 -->
+    <environments default="mysql">
+        <!--  配置 MySQL 环境-->
+        <environment id="mysql">
+            <!--  配置事务类型 -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--  配置连接池 -->
+            <dataSource type="POOLED">
+                <!--  数据库链接配置 -->
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/test?autoReconnect=true"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--
+       1、指定映射配置文件的位置，映射配置文件指的是每个dao独立的配置文件
+       2、*表示通配符，表示 mapper 目录下所有以 .xml 后缀结尾的文件
+        -->
+        <mapper resource="com/mobaijun/dao/mapper/UserDao.xml"/>
+    </mappers>
+</configuration>

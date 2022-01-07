@@ -1,6 +1,6 @@
 package com.mobaijun.service;
 
-import com.mobaijun.pojo.TestModel;
+import com.mobaijun.entity.TestModel;
 
 import java.util.List;
 

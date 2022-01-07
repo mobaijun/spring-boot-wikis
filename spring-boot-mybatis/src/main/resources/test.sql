@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `user` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+    `account` VARCHAR(25) NOT NULL COMMENT '账号',
+    `name` VARCHAR(25) NOT NULL COMMENT '名称',
+    `password` VARCHAR(33) NOT NULL COMMENT '密码',
+    PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='系统用户表';
