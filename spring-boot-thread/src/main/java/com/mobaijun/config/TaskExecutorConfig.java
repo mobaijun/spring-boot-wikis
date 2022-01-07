@@ -49,6 +49,7 @@ public class TaskExecutorConfig implements AsyncConfigurer {
     /**
      * 默认线程池配置执行器
      */
+    @Override
     @Bean
     public Executor getAsyncExecutor() {
         // 1.Spring 默认配置是核心线程数大小为1，最大线程容量大小不受限制，队列容量也不受限制。
