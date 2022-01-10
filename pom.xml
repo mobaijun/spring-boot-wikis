@@ -43,6 +43,7 @@
         <module>spring-boot-mongo</module>
         <module>spring-boot-mybatis</module>
         <module>spring-boot-shell</module>
+        <module>spring-boot-validate-code</module>
     </modules>
 
     <!--这一段配置代码，指定使用 Spring Boot 2.6.0.RELEASE 版本 。
@@ -72,6 +73,7 @@
         <hutool.version>5.7.16</hutool.version>
         <aliyun-oss.version>3.12.0</aliyun-oss.version>
         <swagger.version>2.9.2</swagger.version>
+        <captcha.version>1.0.1</captcha.version>
     </properties>
 
 
