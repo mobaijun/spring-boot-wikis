@@ -1,0 +1,6 @@
+spring:
+  main:
+    # 解决循环依赖异常
+    allow-circular-references: true
+server:
+  port: 8003
