@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mobaijun.dao.TestUserDao">
+    <resultMap id="BaseResultMap" type="com.mobaijun.entity.TestUser">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="account" property="account" jdbcType="VARCHAR"/>
+        <result column="password" property="password" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Column_List">
+        id,`name`,account,password
+    </sql>
+
+    <!--  添加用户  -->
+    <insert id="insertUser">
+        INSERT INTO `user` (`id`, `account`, `name`, `password`)
+        VALUES (#{id}, #{account}, #{name}, #{password});
+    </insert>
+
+    <!--  更新用户  -->
+    <update id="updateUserById">
+        UPDATE `test`.`user`
+        SET `account`  = #{account},
+            `name`     =#{name},
+            `password` = #{password}
+        WHERE `id` = #{id};
+    </update>
+
+    <!-- 根据id删除一个用户 -->
+    <delete id="deleteUserById">
+        delete
+        from user
+        where id = #{id}
+    </delete>
+
+    <!-- 通过Id查询一个用户 -->
+    <select id="findUserById" resultType="com.mobaijun.entity.TestUser">
+        SELECT
+        <include refid="Column_List"/>
+        FROM `user`
+        WHERE id = #{id}
+    </select>
+
+    <!-- 根据用户名模糊查询用户列表 -->
+    <select id="findUserByUserName" resultType="com.mobaijun.entity.TestUser">
+        SELECT *
+        FROM `user`
+        WHERE name LIKE '%'#{name}'%'
+    </select>
+
+</mapper>

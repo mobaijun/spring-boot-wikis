@@ -26,5 +26,6 @@
        2、*表示通配符，表示 mapper 目录下所有以 .xml 后缀结尾的文件
         -->
         <mapper resource="com/mobaijun/dao/mapper/UserDao.xml"/>
+        <mapper resource="com/mobaijun/dao/mapper/TestUserDao.xml"/>
     </mappers>
 </configuration>
