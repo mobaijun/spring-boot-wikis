@@ -44,6 +44,9 @@
         <module>spring-boot-mybatis</module>
         <module>spring-boot-shell</module>
         <module>spring-boot-validate-code</module>
+        <module>spring-boot-junit-perf</module>
+        <module>spring-boot-mail</module>
+        <module>spring-boot-stop-watch</module>
     </modules>
 
     <!--这一段配置代码，指定使用 Spring Boot 2.6.0.RELEASE 版本 。
@@ -74,6 +77,8 @@
         <aliyun-oss.version>3.12.0</aliyun-oss.version>
         <swagger.version>2.9.2</swagger.version>
         <captcha.version>1.0.1</captcha.version>
+        <junitperf.version>1.20.0</junitperf.version>
+        <junit.version>4.13.2</junit.version>
     </properties>
 
 
