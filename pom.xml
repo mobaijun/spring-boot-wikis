@@ -47,6 +47,8 @@
         <module>spring-boot-junit-perf</module>
         <module>spring-boot-mail</module>
         <module>spring-boot-stop-watch</module>
+        <module>spring-boot-javase-test</module>
+        <module>spring-boot-java-data-structure</module>
     </modules>
 
     <!--这一段配置代码，指定使用 Spring Boot 2.6.0.RELEASE 版本 。
