@@ -7,20 +7,7 @@
         <groupId>com.mobaijun</groupId>
         <version>1.0.1</version>
     </parent>
+
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>spring-boot-actuator</artifactId>
-
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
-
-    <dependencies>
-        <!-- actuator 依赖 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-    </dependencies>
 </project>

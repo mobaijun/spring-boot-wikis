@@ -1,0 +1,483 @@
+2022-05-07 17:11:40.999  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:11:40.999  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:11:41.039  INFO 24520 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-07 17:11:41.039  INFO 24520 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-07 17:11:41.589  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:11:41.839  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:11:41.845  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:11:41.845  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:11:41.892  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:11:41.893  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 853 ms
+2022-05-07 17:11:42.455  INFO 24520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-07 17:11:42.539  WARN 24520 --- [restartedMain] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2022-05-07 17:11:42.585  INFO 24520 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-07 17:11:42.615  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2022-05-07 17:11:42.626  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Started SpringBootApplicationShell in 1.956 seconds (JVM running for 2.519)
+2022-05-07 17:17:24.024  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:17:24.024  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:17:24.277  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:17:24.363  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:17:24.365  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:17:24.365  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:17:24.381  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:17:24.382  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 355 ms
+2022-05-07 17:17:24.653  INFO 24520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-07 17:17:24.682  WARN 24520 --- [restartedMain] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2022-05-07 17:17:24.691  INFO 24520 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-07 17:17:24.702  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2022-05-07 17:17:24.707  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Started SpringBootApplicationShell in 0.705 seconds (JVM running for 344.601)
+2022-05-07 17:17:26.217  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:17:26.217  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:17:26.411  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:17:26.411  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:17:26.411  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:17:26.418  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:17:26.418  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 199 ms
+2022-05-07 17:17:26.652  INFO 24520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-07 17:17:26.672  WARN 24520 --- [restartedMain] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2022-05-07 17:17:26.678  INFO 24520 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-07 17:17:26.688  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2022-05-07 17:17:26.692  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Started SpringBootApplicationShell in 0.491 seconds (JVM running for 346.585)
+2022-05-07 17:23:29.926  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:23:29.926  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:23:30.102  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:23:30.143  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:23:30.143  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:23:30.143  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:23:30.150  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:23:30.150  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 222 ms
+2022-05-07 17:23:30.172  WARN 24520 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@42e215a]
+2022-05-07 17:23:30.173  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-07 17:23:30.179  INFO 24520 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 17:23:30.201 ERROR 24520 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@42e215a]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at com.mobaijun.shell.SpringBootApplicationShell.main(SpringBootApplicationShell.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@42e215a]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.3.13.jar:5.3.13]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/mobaijun/shell/mapper/ProjectMilepostMapper;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_281]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_281]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mobaijun.shell.mapper.ProjectMilepostMapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	... 30 common frames omitted
+
+2022-05-07 17:23:31.639  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:23:31.639  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:23:31.801  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:23:31.827  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:23:31.827  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:23:31.827  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:23:31.837  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:23:31.837  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 196 ms
+2022-05-07 17:23:31.856  WARN 24520 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a1491da]
+2022-05-07 17:23:31.856  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-07 17:23:31.861  INFO 24520 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 17:23:31.863 ERROR 24520 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a1491da]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at com.mobaijun.shell.SpringBootApplicationShell.main(SpringBootApplicationShell.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a1491da]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.3.13.jar:5.3.13]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/mobaijun/shell/mapper/ProjectMilepostMapper;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_281]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_281]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mobaijun.shell.mapper.ProjectMilepostMapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	... 30 common frames omitted
+
+2022-05-07 17:23:37.405  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:23:37.405  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:23:37.590  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:23:37.625  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:23:37.625  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:23:37.625  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:23:37.632  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:23:37.632  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 225 ms
+2022-05-07 17:23:37.662  WARN 24520 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2d680084]
+2022-05-07 17:23:37.663  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-07 17:23:37.671  INFO 24520 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 17:23:37.675 ERROR 24520 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2d680084]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at com.mobaijun.shell.SpringBootApplicationShell.main(SpringBootApplicationShell.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2d680084]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.3.13.jar:5.3.13]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/mobaijun/shell/mapper/ProjectMilepostMapper;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_281]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_281]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mobaijun.shell.mapper.ProjectMilepostMapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	... 30 common frames omitted
+
+2022-05-07 17:23:39.118  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:23:39.118  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:23:39.276  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:23:39.301  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:23:39.302  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:23:39.302  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:23:39.311  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:23:39.311  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 191 ms
+2022-05-07 17:23:39.330  WARN 24520 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@46d46a91]
+2022-05-07 17:23:39.330  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-07 17:23:39.335  INFO 24520 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 17:23:39.337 ERROR 24520 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@46d46a91]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at com.mobaijun.shell.SpringBootApplicationShell.main(SpringBootApplicationShell.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@46d46a91]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.3.13.jar:5.3.13]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/mobaijun/shell/mapper/ProjectMilepostMapper;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_281]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_281]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mobaijun.shell.mapper.ProjectMilepostMapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	... 30 common frames omitted
+
+2022-05-07 17:23:43.865  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:23:43.865  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:23:44.040  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:23:44.079  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:23:44.080  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:23:44.080  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:23:44.086  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:23:44.086  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 220 ms
+2022-05-07 17:23:44.116  WARN 24520 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@15cff48f]
+2022-05-07 17:23:44.116  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-07 17:23:44.121  INFO 24520 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 17:23:44.123 ERROR 24520 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@15cff48f]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at com.mobaijun.shell.SpringBootApplicationShell.main(SpringBootApplicationShell.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@15cff48f]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.3.13.jar:5.3.13]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/mobaijun/shell/mapper/ProjectMilepostMapper;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_281]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_281]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mobaijun.shell.mapper.ProjectMilepostMapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	... 30 common frames omitted
+
+2022-05-07 17:23:45.566  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:23:45.566  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:23:45.715  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:23:45.740  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:23:45.740  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:23:45.740  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:23:45.747  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:23:45.747  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2022-05-07 17:23:45.765  WARN 24520 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@512da124]
+2022-05-07 17:23:45.765  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-07 17:23:45.770  INFO 24520 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-07 17:23:45.772 ERROR 24520 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectMilepostServiceImpl' defined in file [F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes\com\mobaijun\shell\service\impl\ProjectMilepostServiceImpl.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@512da124]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) [spring-boot-2.5.7.jar:2.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) [spring-boot-2.5.7.jar:2.5.7]
+	at com.mobaijun.shell.SpringBootApplicationShell.main(SpringBootApplicationShell.java:17) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.5.7.jar:2.5.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.mobaijun.shell.service.impl.ProjectMilepostServiceImpl] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@512da124]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:739) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:671) ~[spring-core-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306) ~[spring-context-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116) ~[spring-beans-5.3.13.jar:5.3.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.3.13.jar:5.3.13]
+	... 20 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/mobaijun/shell/mapper/ProjectMilepostMapper;
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583) ~[na:1.8.0_281]
+	at java.lang.Class.getDeclaredFields(Class.java:1916) ~[na:1.8.0_281]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:734) ~[spring-core-5.3.13.jar:5.3.13]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mobaijun.shell.mapper.ProjectMilepostMapper
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_281]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[na:1.8.0_281]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_281]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_281]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.5.7.jar:2.5.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_281]
+	... 30 common frames omitted
+
+2022-05-07 17:27:34.090  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:27:34.090  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:27:34.315  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:27:34.360  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:27:34.361  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:27:34.361  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:27:34.371  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:27:34.371  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2022-05-07 17:27:34.644  INFO 24520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-07 17:27:34.695  WARN 24520 --- [restartedMain] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2022-05-07 17:27:34.708  INFO 24520 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-07 17:27:34.725  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2022-05-07 17:27:34.731  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Started SpringBootApplicationShell in 0.657 seconds (JVM running for 954.624)
+2022-05-07 17:27:36.540  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:27:36.540  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:27:36.723  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:27:36.751  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:27:36.752  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:27:36.752  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:27:36.761  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:27:36.761  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 219 ms
+2022-05-07 17:27:36.882  INFO 24520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-07 17:27:36.902  WARN 24520 --- [restartedMain] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2022-05-07 17:27:36.909  INFO 24520 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-07 17:27:36.918  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2022-05-07 17:27:36.921  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Started SpringBootApplicationShell in 0.399 seconds (JVM running for 956.815)
+2022-05-07 17:27:39.518  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:27:39.519  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:27:39.686  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:27:39.717  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:27:39.718  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:27:39.718  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:27:39.725  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:27:39.725  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 204 ms
+2022-05-07 17:27:39.857  INFO 24520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-07 17:27:39.875  WARN 24520 --- [restartedMain] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2022-05-07 17:27:39.881  INFO 24520 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-07 17:27:39.890  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2022-05-07 17:27:39.894  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Started SpringBootApplicationShell in 0.395 seconds (JVM running for 959.787)
+2022-05-07 17:27:41.834  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:27:41.834  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:27:41.985  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:27:42.009  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:27:42.010  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:27:42.010  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:27:42.017  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:27:42.017  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 182 ms
+2022-05-07 17:27:42.138  INFO 24520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-07 17:27:42.157  WARN 24520 --- [restartedMain] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2022-05-07 17:27:42.164  INFO 24520 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-07 17:27:42.173  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2022-05-07 17:27:42.177  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Started SpringBootApplicationShell in 0.356 seconds (JVM running for 962.07)
+2022-05-07 17:31:04.452  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Starting SpringBootApplicationShell using Java 1.8.0_281 on Auser·杰 with PID 24520 (F:\IdeaProjects\spring-boot-wikis\spring-boot-shell\target\classes started by mobai in F:\IdeaProjects\spring-boot-wikis)
+2022-05-07 17:31:04.452  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : No active profile set, falling back to default profiles: default
+2022-05-07 17:31:04.606  WARN 24520 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.mobaijun.shell]' package. Please check your configuration.
+2022-05-07 17:31:04.639  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8890 (http)
+2022-05-07 17:31:04.640  INFO 24520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-07 17:31:04.640  INFO 24520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-05-07 17:31:04.646  INFO 24520 --- [restartedMain] o.a.c.c.C.[Tomcat-7].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-07 17:31:04.646  INFO 24520 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 193 ms
+2022-05-07 17:31:04.763  INFO 24520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-07 17:31:04.781  WARN 24520 --- [restartedMain] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2022-05-07 17:31:04.787  INFO 24520 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-07 17:31:04.796  INFO 24520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8890 (http) with context path ''
+2022-05-07 17:31:04.800  INFO 24520 --- [restartedMain] c.m.shell.SpringBootApplicationShell     : Started SpringBootApplicationShell in 0.365 seconds (JVM running for 1164.693)

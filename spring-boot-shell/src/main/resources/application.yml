@@ -1,0 +1,60 @@
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为8080//生产环境8899
+  port: 8890
+
+  servlet:
+    # 应用的访问路径
+    context-path: /
+  tomcat:
+    # tomcat的URI编码
+    uri-encoding: UTF-8
+    threads:
+      # tomcat最大线程数，默认为200
+      max: 800
+      # Tomcat启动初始化的线程数，默认值25
+      min-spare: 30
+
+# spring
+spring:
+  # 数据源
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    # 主库数据源
+    url: jdbc:mysql://192.168.31.93:3306/luban?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+    username: root
+    password: Lubankeji123!
+
+# mybatis_plus 配置
+mybatis-plus:
+  global-config:
+    # 数据库配置
+    db-config:
+      # 全局状态值
+      logic-delete-field: deleted
+      # 1表示删除
+      logic-delete-value: 1
+      # 0表示未删除
+      logic-not-delete-value: 0
+      # 主键类型
+      id-type: auto
+      # 插入和修改策略
+      insert-strategy: NOT_EMPTY
+      update-strategy: NOT_EMPTY
+      # 不打印logo
+    banner: false
+  configuration:
+    # 打印sql语句
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  # 映射文件地址
+  mapper-locations:
+    - classpath*:com/luban/device/mapper/mapping/*.xml
+  # 实体类扫描
+  type-aliases-package:
+    - com.luban.device.model.entity
+
+# 日志配置
+logging:
+  file:
+    name: device
+    path: logs

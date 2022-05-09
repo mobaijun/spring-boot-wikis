@@ -26,18 +26,21 @@ public class SwaggerConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(getApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.mobaijun")) //过滤的接口
+                // 过滤的接口
+                .apis(RequestHandlerSelectors.basePackage("com.mobaijun"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo getApiInfo() {
         // 定义联系人信息
-        Contact contact = new Contact("墨白","https://www.mobaijun.com", "mobaijun8@163.com");
+        Contact contact = new Contact("墨白", "https://www.mobaijun.com", "mobaijun8@163.com");
         return new ApiInfoBuilder()
-                .title("集成阿里云oss") // 标题
-                .description("集成阿里云oss") // 描述信息
-                .version("1.0.0") // //版本
+                // 标题
+                .title("集成阿里云oss")
+                // 描述信息
+                .description("集成阿里云oss")
+                // 版本
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0")
                 .contact(contact)

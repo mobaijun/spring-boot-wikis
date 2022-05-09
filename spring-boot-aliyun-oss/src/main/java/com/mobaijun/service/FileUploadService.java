@@ -9,8 +9,8 @@ import com.aliyun.oss.model.ObjectListing;
 import com.mobaijun.config.AliyunOssConfig;
 import com.mobaijun.result.FileUploadResult;
 import com.mobaijun.util.FileUtils;
-import org.apache.commons.lang.StringUtils;
-import org.apache.commons.lang.math.RandomUtils;
+import org.apache.commons.lang3.RandomUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -22,7 +22,6 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.List;
-import java.util.Random;
 
 import static com.mobaijun.constant.Constant.IMAGE_TYPE;
 
@@ -91,7 +90,7 @@ public class FileUploadService {
         DateTime dateTime = new DateTime();
         return this.aliyunOssConfig.getFileHost() + "/" + dateTime.toString("yyyy") + "/" + dateTime.toString("MM") + "/"
                 + dateTime.toString("dd") + "/" + System.currentTimeMillis()
-                + RandomUtils.nextInt(new Random(), 9999) + "."
+                + RandomUtils.nextInt(1, 9999) + "."
                 + StringUtils.substringAfterLast(sourceFileName, ".");
     }
 
@@ -103,8 +102,7 @@ public class FileUploadService {
         final int maxKeys = 200;
         // 列举文件。
         ObjectListing objectListing = ossClient.listObjects(new ListObjectsRequest(aliyunOssConfig.getBucketName()).withMaxKeys(maxKeys));
-        List<OSSObjectSummary> sums = objectListing.getObjectSummaries();
-        return sums;
+        return objectListing.getObjectSummaries();
     }
 
     /**
@@ -134,12 +132,8 @@ public class FileUploadService {
         while ((lenght = in.read(buffer)) != -1) {
             out.write(buffer, 0, lenght);
         }
-        if (out != null) {
-            out.flush();
-            out.close();
-        }
-        if (in != null) {
-            in.close();
-        }
+        out.flush();
+        out.close();
+        in.close();
     }
 }

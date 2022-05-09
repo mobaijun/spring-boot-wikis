@@ -35,7 +35,7 @@ class SpringBootInfluxdbApplicationTests {
         StringBuilder sql = new StringBuilder();
         sql.append("SELECT * FROM \"ZJDYBTSE\" limit 100");
         List<TestModel> allList = influxdbService.getAllList(sql);
-        allList.stream().forEach(System.out::println);
+        allList.forEach(System.out::println);
     }
 
 
