@@ -4,12 +4,15 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driverClassName: com.mysql.cj.jdbc.Driver
     # 主库数据源
-    url: jdbc:mysql://192.168.31.93:3306/luban-device?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
+    url: jdbc:mysql://114.132.224.166:3306/nine-price-spike?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&allowMultiQueries=true
     username: root
-    password: Lubankeji123!
+    password: Mmobaijun@!123
   jpa:
     database: mysql
     hibernate:
       ddl-auto: update
     show-sql: true
     open-in-view: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
