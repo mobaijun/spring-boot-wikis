@@ -9,13 +9,13 @@ import com.aliyun.oss.model.ObjectListing;
 import com.mobaijun.config.AliyunOssConfig;
 import com.mobaijun.result.FileUploadResult;
 import com.mobaijun.util.FileUtils;
-import org.apache.commons.lang.StringUtils;
-import org.apache.commons.lang.math.RandomUtils;
+import lombok.RequiredArgsConstructor;
+import org.apache.commons.lang3.RandomUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.annotation.Resource;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayInputStream;
@@ -28,18 +28,17 @@ import static com.mobaijun.constant.Constant.IMAGE_TYPE;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/12/22 10:51
  * ClassName:FileUploadService
  * 类描述：
  */
 @Service
+@RequiredArgsConstructor
 public class FileUploadService {
 
-    @Resource
-    private OSS ossClient;
-    @Resource
-    private AliyunOssConfig aliyunOssConfig;
+    private final OSS ossClient;
+    private final AliyunOssConfig aliyunOssConfig;
 
     /**
      * 文件上传
@@ -91,7 +90,7 @@ public class FileUploadService {
         DateTime dateTime = new DateTime();
         return this.aliyunOssConfig.getFileHost() + "/" + dateTime.toString("yyyy") + "/" + dateTime.toString("MM") + "/"
                 + dateTime.toString("dd") + "/" + System.currentTimeMillis()
-                + RandomUtils.nextInt(new Random(), 9999) + "."
+                + RandomUtils.nextInt(new Random().nextInt(), 9999) + "."
                 + StringUtils.substringAfterLast(sourceFileName, ".");
     }
 
@@ -134,12 +133,8 @@ public class FileUploadService {
         while ((lenght = in.read(buffer)) != -1) {
             out.write(buffer, 0, lenght);
         }
-        if (out != null) {
-            out.flush();
-            out.close();
-        }
-        if (in != null) {
-            in.close();
-        }
+        out.flush();
+        out.close();
+        in.close();
     }
 }

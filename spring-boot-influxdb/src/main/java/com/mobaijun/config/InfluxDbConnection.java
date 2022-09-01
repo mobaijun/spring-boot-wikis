@@ -1,8 +1,6 @@
 package com.mobaijun.config;
 
-import com.mobaijun.pojo.TestModel;
 import com.mobaijun.properties.InfluxdbProperties;
-import com.squareup.moshi.Json;
 import lombok.extern.slf4j.Slf4j;
 import org.influxdb.InfluxDB;
 import org.influxdb.InfluxDBFactory;
@@ -15,15 +13,13 @@ import org.springframework.beans.BeanWrapperImpl;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
-import java.util.TreeMap;
 import java.util.concurrent.TimeUnit;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/11/22 10:26
  * ClassName:InfluxDbConnection
  * 类描述： influxdb操作类

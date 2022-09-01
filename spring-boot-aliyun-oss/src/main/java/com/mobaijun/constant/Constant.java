@@ -2,7 +2,7 @@ package com.mobaijun.constant;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/12/22 10:48
  * ClassName:Constant
  * 类描述：

@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * Software：IntelliJ IDEA 2021.1.1 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/7/7 14:25
  * ClassName:CorsConfig
  * 类描述： 跨域配置类

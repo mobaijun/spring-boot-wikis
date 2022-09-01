@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/12/22 10:45
  * ClassName:AliyunOssConfig
  * 类描述： 阿里云配置类
@@ -21,7 +21,9 @@ public class AliyunOssConfig {
 
     public static final String PREFIX = "aliyun.oss";
 
-    // https://upload-images.jianshu.io/upload_images/5336514-2818153bf58ebfce.png
+    /**
+     * <a href="https://upload-images.jianshu.io/upload_images/5336514-2818153bf58ebfce.png">...</a>
+     */
     private String bucketName;
     private String endpoint;
     private String accessKey;

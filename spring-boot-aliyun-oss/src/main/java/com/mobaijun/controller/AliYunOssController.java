@@ -1,8 +1,5 @@
 package com.mobaijun.controller;
 
-import cn.hutool.json.JSON;
-import com.aliyun.oss.model.OSSObjectSummary;
-import com.mobaijun.result.FileUploadResult;
 import com.mobaijun.service.FileUploadService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -16,11 +13,10 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.List;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/12/22 10:54
  * ClassName:AliYunOssController
  * 类描述：控制器
@@ -36,23 +32,20 @@ public class AliYunOssController {
     @ApiOperation("文件上传")
     @PostMapping("file/upload")
     public Object upload(MultipartFile uploadFile) {
-        FileUploadResult upload = this.fileUploadService.upload(uploadFile);
-        return upload;
+        return this.fileUploadService.upload(uploadFile);
     }
 
 
     @ApiOperation("文件删除")
     @DeleteMapping("file/delete")
     public Object delete(String objectName) {
-        FileUploadResult delete = this.fileUploadService.delete(objectName);
-        return delete;
+        return this.fileUploadService.delete(objectName);
     }
 
     @ApiOperation("查看全部文件")
     @GetMapping("file/list")
     public Object list() {
-        List<OSSObjectSummary> list = this.fileUploadService.list();
-        return list;
+        return this.fileUploadService.list();
     }
 
     @ApiOperation("文件下载")

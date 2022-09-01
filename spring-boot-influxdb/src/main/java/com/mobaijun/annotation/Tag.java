@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/11/22 10:04
  * ClassName:Tag
  * 类描述： 主键标识

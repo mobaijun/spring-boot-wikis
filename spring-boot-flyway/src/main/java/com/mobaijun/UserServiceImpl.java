@@ -4,12 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
-import java.sql.SQLException;
 import java.util.List;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/11/15 13:47
  * ClassName:UserServiceImpl
  * 类描述： 用户实现类
@@ -31,14 +30,13 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> getByName(String name) {
-        List<User> users = jdbcTemplate.query("select * from user where name = ?", (resultSet, i) -> {
+        return jdbcTemplate.query("select * from user where name = ?", (resultSet, i) -> {
             User user = new User();
             user.setId(resultSet.getLong("ID"));
             user.setName(resultSet.getString("NAME"));
             user.setAge(resultSet.getInt("AGE"));
             return user;
         }, name);
-        return users;
     }
 
     @Override
@@ -47,7 +45,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Integer getAllUsers(){
+    public Integer getAllUsers() {
         return jdbcTemplate.queryForObject("select count(1) from user", Integer.class);
     }
 

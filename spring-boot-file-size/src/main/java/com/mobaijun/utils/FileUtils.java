@@ -7,10 +7,11 @@ import java.util.ArrayList;
 import java.util.Formatter;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/11/8 15:46
  * ClassName:FileUtils
  * 类描述： 文件类
@@ -18,7 +19,7 @@ import java.util.List;
 public class FileUtils {
 
     private final static Formatter f = new Formatter(System.out);
-    private final static String strF = "%-10s%7s %11s %10s   %-20s\n";
+    private final static String STRF = "%-10s%7s %11s %10s   %-20s\n";
 
     @Data
     static class Node {
@@ -113,12 +114,12 @@ public class FileUtils {
      * 标题
      */
     public static void printTitle() {
-        f.format(strF, "Permission", "Size", "FileCount", "DirCount", "FileName");
+        f.format(STRF, "Permission", "Size", "FileCount", "DirCount", "FileName");
         f.format("--------------------------------------------------------------\n");
     }
 
     public static void printSingleLine(Node node) {
-        f.format(strF, node.permission, showSize(node.treeInfo.size), node.treeInfo.files.size(), node.treeInfo.dirs.size(), node.fileName);
+        f.format(STRF, node.permission, showSize(node.treeInfo.size), node.treeInfo.files.size(), node.treeInfo.dirs.size(), node.fileName);
     }
 
     private static void printTail() {
@@ -152,7 +153,7 @@ public class FileUtils {
         long totalSize = 0;
         File topFile = new File(dir);
         printTitle();
-        for (File file : topFile.listFiles()) {
+        for (File file : Objects.requireNonNull(topFile.listFiles())) {
             Node node = new Node(file.getName(), getPermission(file), walk(file));
             printSingleLine(node);
             fileCnt += node.treeInfo.files.size();
@@ -162,9 +163,9 @@ public class FileUtils {
         }
         printTail();
         long end = System.currentTimeMillis();
-        System.out.println(String.format("%s has %d dirs, %d files, total %s.\n"
-                        + "Takes %.2f seconds.", topFile.getAbsoluteFile(), dirCnt, fileCnt, showSize(totalSize),
-                (end - start) / 1000.0));
+        System.out.printf("%s has %d dirs, %d files, total %s.\n"
+                        + "Takes %.2f seconds.%n", topFile.getAbsoluteFile(), dirCnt, fileCnt, showSize(totalSize),
+                (end - start) / 1000.0);
     }
 
 }

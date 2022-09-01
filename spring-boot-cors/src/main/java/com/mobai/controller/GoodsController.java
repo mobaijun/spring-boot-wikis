@@ -2,7 +2,7 @@ package com.mobai.controller;
 
 import com.mobai.pojo.GoodsDo;
 import com.mobai.service.GoodsService;
-import org.springframework.beans.factory.annotation.Autowired;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,14 +16,14 @@ import java.util.List;
  * 类描述：
  */
 @RestController
+@RequiredArgsConstructor
 public class GoodsController {
 
-    @Autowired
-    private GoodsService goodsService;
+    private final GoodsService goodsService;
 
     /**
      * 遵循Restful规范的接口
-     * 请求地址：http://127.0.0.1:8080/goods
+     * 请求地址：<a href="http://127.0.0.1:8080/goods">...</a>
      */
     @GetMapping("/goods")
     public List<GoodsDo> getList() {

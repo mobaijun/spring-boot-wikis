@@ -8,5 +8,4 @@ public class SpringBootAliyunOssApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootAliyunOssApplication.class, args);
     }
-
 }

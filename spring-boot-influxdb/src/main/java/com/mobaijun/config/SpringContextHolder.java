@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/11/22 11:11
  * ClassName:SpringContextHolder
  * 类描述：Spring的ApplicationContext的持有者,可以用静态方法的方式获取spring容器中的bean

@@ -12,7 +12,10 @@ public class SpringBootJspApplication {
         SpringApplication.run(SpringBootJspApplication.class, args);
     }
 
-    // 注册视图解析器
+    /**
+     * 注册视图解析器
+     * @return
+     */
     @Bean
     public InternalResourceViewResolver setupViewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();

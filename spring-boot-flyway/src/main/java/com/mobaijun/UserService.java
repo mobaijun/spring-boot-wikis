@@ -1,11 +1,10 @@
 package com.mobaijun;
 
-import java.sql.SQLException;
 import java.util.List;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/11/15 13:43
  * InterfaceName:UserService
  * 接口描述： 用户接口
@@ -28,6 +27,7 @@ public interface UserService {
 
     /**
      * 获取用户总量
+     *
      * @return
      */
     Integer getAllUsers();

@@ -5,14 +5,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 /**
- * 学习教程地址：http://www.imooc.com/wiki/springbootlesson/started.html
+ * 学习教程地址：<a href="http://www.imooc.com/wiki/springbootlesson/started.html">...</a>
  * 等等，好像还有一个注解 @SpringBootApplication ，该注解是标注在类上的，属于类的信息。嗯，看来 Spring Boot 启动的秘密就在这个注解上了。
  * 拥有了 @SpringBootConfiguration ，我们就拥有了一个可以拿来即用的 Spring 容器环境了。
  */
 @SpringBootApplication
 public class SpringBootHelloApplication {
 
-    // 我们来分析下这段代码， public static void main 是普通的 main 方法，是程序执行的入口。
+    /**
+     * 我们来分析下这段代码， public static void main 是普通的 main 方法，是程序执行的入口。
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         // SpringApplication.run 看字面意思就知道，这是 Spring 应用的启动方法，运行该行代码后， javax.swing.Spring 应用就跑起来了。
         // 这个方法有两个参数， args 是命令行参数，此处没啥作用；另一个参数是 SpringBootHelloApplication.class ，包含类的信息。

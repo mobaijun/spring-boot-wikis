@@ -16,7 +16,7 @@ import java.util.function.Consumer;
 
 /**
  * Software：IntelliJ IDEA 2021.2 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/11/22 14:58
  * InterfaceName:influxdbServiceCustomize
  * 接口描述： 自定义

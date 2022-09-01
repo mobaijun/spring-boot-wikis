@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * Software：IntelliJ IDEA 2021.1.1 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/7/6 16:17
  * ClassName:GoodsService
  * 类描述：
