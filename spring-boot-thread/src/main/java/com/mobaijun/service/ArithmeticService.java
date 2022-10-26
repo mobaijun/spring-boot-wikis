@@ -10,7 +10,7 @@ import java.util.concurrent.Future;
 
 /**
  * Software：IntelliJ IDEA 2021.1.1 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/8/2 17:00
  * ClassName:ArithmeticService
  * 类描述：操作计算 service 类：简单实现有关异步和同步两种计算方式的性能比较

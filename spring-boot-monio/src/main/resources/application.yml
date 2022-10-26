@@ -1,0 +1,13 @@
+spring:
+  minio:
+    accessKey: FulXcEvmQIoFMyp1
+    secretKey: QWjHTJmYbopwSujYF8hiNNVVFgPhaz6O
+    secure: false
+    url: http://192.168.1.233:9000/
+    bucket: test-mb
+    metric-name: real-name-system
+  servlet:
+    multipart:
+      max-request-size: 50MB
+      max-file-size: 50MB
+

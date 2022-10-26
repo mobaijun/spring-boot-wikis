@@ -9,7 +9,7 @@
     group 下面的子项目的，需要保证严格唯一。
     一般情况下将 artifactId 和 name 设置成一样的就可以了。-->
     <!--项目名称-->
-    <name>spring-boot-wikis</name>
+    <name>${project.artifactId}</name>
     <!--机构标识-->
     <groupId>com.mobaijun</groupId>
     <!--项目标识-->
@@ -40,6 +40,7 @@
         <module>spring-boot-profile</module>
         <module>spring-boot-rabbitmq</module>
         <module>spring-boot-redis</module>
+        <module>spring-boot-monio</module>
     </modules>
 
     <!--这一段配置代码，指定使用 Spring Boot 2.6.0.RELEASE 版本 。
@@ -56,76 +57,67 @@
     <description>Spring Boot Wikis</description>
     <url>https://www.mobaijun.com</url>
 
-
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <mica.version>2.6.0</mica.version>
+        <mica.version>2.7.4</mica.version>
         <swagger.starter.version>3.0.0</swagger.starter.version>
-        <mybatisplus.version>3.4.3</mybatisplus.version>
-        <springboot.version>2.7.3</springboot.version>
+        <mybatisplus.version>3.5.2</mybatisplus.version>
+        <spring-boot.version>2.7.4</spring-boot.version>
         <jackson.version>2.10.1</jackson.version>
-        <influxdb.version>2.15</influxdb.version>
+        <influxdb.version>2.23</influxdb.version>
         <hutool.version>5.8.5</hutool.version>
         <aliyun-oss.version>3.12.0</aliyun-oss.version>
         <swagger.version>2.9.2</swagger.version>
+        <kjs-common.version>1.1.4</kjs-common.version>
+        <mobaijun-spring-boot.version>1.1.4</mobaijun-spring-boot.version>
+        <commons-lang3.version>3.12.0</commons-lang3.version>
     </properties>
 
 
     <!--接下来，这一段代码配置，负责指定 Spring Boot 项目中需要的依赖。
     Spring Boot 有一些起步依赖，形如 spring-boot-starter-xxx 的样式。起步依赖整合了很多依赖项，后续我们慢慢了解即可。-->
-    <dependencies>
-        <!-- actuator 依赖 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-            <version>${springboot.version}</version>
-        </dependency>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
-        <!-- 引入web项目相关依赖 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>${springboot.version}</version>
-        </dependency>
+            <dependency>
+                <groupId>com.mobaijun</groupId>
+                <artifactId>mobaijun-spring-boot-dependencies</artifactId>
+                <version>${mobaijun-spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
-        <!--相关插件-->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
+            <!-- 测试 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>test</scope>
+            </dependency>
 
-        <!-- 测试 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <version>${springboot.version}</version>
-            <scope>test</scope>
-        </dependency>
+            <!-- apache 工具包 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
 
-
-        <!-- apache 工具包 -->
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-        </dependency>
-
-        <!--  热启动 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-
-        <!-- hutool-all 工具包 -->
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-            <version>${hutool.version}</version>
-        </dependency>
-    </dependencies>
+            <!-- 工具包 -->
+            <dependency>
+                <groupId>com.mobaijun</groupId>
+                <artifactId>kjs-common</artifactId>
+                <version>${kjs-common.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <!--最后的这一段代码配置，指定了一个插件，用来构建、运行、打包 Spring Boot 项目。-->
     <build>

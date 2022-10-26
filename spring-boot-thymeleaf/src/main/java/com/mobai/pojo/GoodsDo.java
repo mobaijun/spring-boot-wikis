@@ -6,7 +6,7 @@ import lombok.ToString;
 
 /**
  * Software：IntelliJ IDEA 2021.1.1 x64
- * Author: https://www.mobaijun.com
+ * Author: <a href="https://www.mobaijun.com">...</a>
  * Date: 2021/7/5 16:43
  * ClassName:GoodsDo
  * 类描述： 商品信息实体类
