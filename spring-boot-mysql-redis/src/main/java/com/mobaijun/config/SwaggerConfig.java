@@ -1,6 +1,6 @@
 package com.mobaijun.config;
 
-import io.swagger.models.auth.In;
+import io.swagger.v3.oas.models.security.SecurityScheme.In;
 import org.apache.commons.lang3.reflect.FieldUtils;
 import org.springframework.boot.SpringBootVersion;
 import org.springframework.context.annotation.Bean;
@@ -98,7 +98,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
      * @return
      */
     private List<SecurityScheme> securitySchemes() {
-        ApiKey apiKey = new ApiKey("BASE_TOKEN", "token", In.HEADER.toValue());
+        ApiKey apiKey = new ApiKey("BASE_TOKEN", "token", In.HEADER.toString());
         return Collections.singletonList(apiKey);
     }
 
