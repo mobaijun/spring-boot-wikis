@@ -41,6 +41,7 @@
         <module>spring-boot-rabbitmq</module>
         <module>spring-boot-redis</module>
         <module>spring-boot-monio</module>
+        <module>spring-boot-email</module>
     </modules>
 
     <!--这一段配置代码，指定使用 Spring Boot 2.6.0.RELEASE 版本 。
