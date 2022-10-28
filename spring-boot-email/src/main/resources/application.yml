@@ -1,8 +1,8 @@
 spring:
   mail:
     username: mobaijun8@163.com
-    password: 888888888888888
+    password: 888888888888888888
     host: smtp.163.com
     default-encoding: UTF-8
     properties:
-      from: mobaijun8@163.com
+      from: ${spring.mail.username}

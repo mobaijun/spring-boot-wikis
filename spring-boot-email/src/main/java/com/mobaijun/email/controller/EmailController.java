@@ -1,6 +1,5 @@
 package com.mobaijun.email.controller;
 
-import com.mobaijun.email.model.EmailSendInfo;
 import com.mobaijun.email.service.EmailSenderService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,7 +22,6 @@ public class EmailController {
 
     @PostMapping("/senderEmail")
     public void senderEmail() {
-        EmailSendInfo emailSendInfo = emailSenderService.sendMail("测试", "第一封邮件", false, "mobaijun8@163.com");
-        System.out.println("emailSendInfo = " + emailSendInfo);
+        emailSenderService.sendMail("测试", "第一封邮件", true, "mobaijun8@163.com");
     }
 }
